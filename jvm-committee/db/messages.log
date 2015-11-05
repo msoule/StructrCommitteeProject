@@ -1,0 +1,480 @@
+2015-11-05 21:32:10.488+0000 INFO  [org.neo4j]: You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+2015-11-05 21:32:10.606+0000 INFO  [org.neo4j]: --- INITIALIZED diagnostics START ---
+2015-11-05 21:32:10.606+0000 INFO  [org.neo4j]: Neo4j Kernel properties:
+    neostore.propertystore.db.strings.mapped_memory=306M
+    ephemeral=false
+    neostore.nodestore.db.mapped_memory=99M
+    remote_shell_port=1337
+    store_dir=./db
+    neostore.propertystore.db.arrays.mapped_memory=346M
+    remote_shell_enabled=true
+    neostore.propertystore.db.mapped_memory=360M
+    neostore.relationshipstore.db.mapped_memory=441M
+2015-11-05 21:32:10.617+0000 INFO  [org.neo4j]: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    LINUX_SCHEDULERS
+    NETWORK
+2015-11-05 21:32:10.624+0000 INFO  [org.neo4j]: System memory information:
+    Total Physical memory: 3.86 GB
+    Free Physical memory: 374.77 MB
+    Committed virtual memory: 2.32 GB
+    Total swap space: 4.00 GB
+    Free swap space: 4.00 GB
+2015-11-05 21:32:10.629+0000 INFO  [org.neo4j]: JVM memory information:
+    Free  memory: 380.27 MB
+    Total memory: 494.94 MB
+    Max   memory: 494.94 MB
+    Garbage Collector: Copy: [Eden Space, Survivor Space]
+    Garbage Collector: MarkSweepCompact: [Eden Space, Survivor Space, Tenured Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=3.38 MB, used=3.34 MB, max=240.00 MB, threshold=0.00 B
+    Memory Pool: Metaspace (Non-heap memory): committed=13.25 MB, used=13.03 MB, max=-1.00 B, threshold=0.00 B
+    Memory Pool: Compressed Class Space (Non-heap memory): committed=2.25 MB, used=2.15 MB, max=1.00 GB, threshold=0.00 B
+    Memory Pool: Eden Space (Heap memory): committed=136.50 MB, used=114.66 MB, max=136.50 MB, threshold=?
+    Memory Pool: Survivor Space (Heap memory): committed=17.06 MB, used=0.00 B, max=17.06 MB, threshold=?
+    Memory Pool: Tenured Gen (Heap memory): committed=341.38 MB, used=0.00 B, max=341.38 MB, threshold=0.00 B
+2015-11-05 21:32:10.644+0000 INFO  [org.neo4j]: Operating system information:
+    Operating System: Linux; version: 3.19.0-25-generic; arch: amd64; cpus: 1
+    Max number of file descriptors: 4096
+    Number of open file descriptors: 181
+    Process id: 11446@mark-VirtualBox
+    Byte order: LITTLE_ENDIAN
+    Local timezone: America/Chicago
+2015-11-05 21:32:10.653+0000 INFO  [org.neo4j]: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 25.66-b17
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Xms512m, -Xmx512m]
+2015-11-05 21:32:10.653+0000 INFO  [org.neo4j]: Java classpath:
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/asm-4.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jai_codec-1.1.3.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-logging-1.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-lang3-3.3.jar
+     [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/groovy-xml-2.2.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/structr-rest-1.0.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/antlr-2.7.7.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jansi-1.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jruby-complete-1.7.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/logback-core-1.0.9.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/websocket-servlet-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/xmlParserAPIs-2.0.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-collections-3.2.1.jar
+     [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-jsp-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-graph-algo-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/rest-assured-2.3.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/xml-apis-1.3.04.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/structr-core-1.0.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jackson-jaxrs-1.8.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-io-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/javax.annotation-api-1.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jsoup-1.7.3.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/slf4j-api-1.7.2.jar
+     [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jettison-1.3.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/activation-1.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-codec-1.8.jar
+     [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-spatial-0.12-neo4j-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-cql-9.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/lucene-core-3.6.2.jar
+     [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-shapefile-9.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-render-9.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/xalan-2.7.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/kryo-2.21.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-security-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-servlets-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/minlog-1.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/mail-1.4.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/javax.servlet.jsp.jstl-1.2.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-util-9.1.4.v20140401.jar
+     [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/diff_match_patch-current.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-lucene-index-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/filters-2.0.235.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/javax.servlet-api-3.1.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-xml-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/parboiled-scala_2.10-1.1.6.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/hamcrest-library-1.3.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jersey-core-1.9-ea04.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/logback-access-1.0.9.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/org.apache.oltu.oauth2.client-1.0.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/reflectasm-1.07-shaded.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jt-zonalstats-1.3.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jai_imageio-1.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-kernel-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/json-20131018.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/ftpserver-core-1.0.6.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/websocket-common-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/httpmime-4.2.6.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/asm-commons-4.1.jar
+     [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-compress-1.7.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jsr-275-1.0-beta-2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gremlin-groovy-1.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/xml-path-2.3.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/junit-3.8.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/parboiled-java-1.1.6.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-data-9.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/tagsoup-1.2.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-coverage-9.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/httpcore-4.2.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/org.eclipse.jdt.core-3.8.2.v20130121.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/oro-2.0.8.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/java-image-scaling-0.8.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jt-utils-1.3.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/vecmath-1.3.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/websocket-server-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-fileupload-1.3.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-email-1.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/opencsv-2.3.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/asm-analysis-4.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/groovy-2.2.1.jar
+     [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar
+     [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-server-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gremlin-java-1.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jcommander-1.30.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/scala-library-2.10.3.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/javax.ws.rs-api-2.0-m09.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/hawtbuf-1.4.jar
+     [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/concurrentlinkedhashmap-lru-1.3.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-plus-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jai_core-1.1.3.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jersey-client-1.9-ea04.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-cypher-compiler-2.0-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/javax.servlet.jsp-api-2.3.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-jaas-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-schemas-3.1.M0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jackson-mapper-asl-1.8.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-annotations-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/imageio-ext-utilities-1.1.7.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/asm-util-4.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-httpclient-3.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-opengis-9.2.jar
+     [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/org.apache.oltu.oauth2.common-1.0.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jdom-1.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-shell-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/jvm-committee-1.0.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/structr-ui-1.0.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/dom4j-1.6.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/json-simple-1.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/serializer-2.7.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/parboiled-core-1.1.6.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-runner-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/transform-3.0.2.jar
+     [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jts-1.13.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/websocket-client-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jackson-core-asl-1.8.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/log4j-1.2.8.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/blueprints-core-1.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/asm-tree-4.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jmimemagic-0.1.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-continuation-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/hawtdb-1.6.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-api-9.2.jar
+     [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/twitter4j-core-4.0.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-webapp-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/ftplet-api-1.0.6.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/mockito-all-1.9.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/rest-assured-common-2.3.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jgridshift-1.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/mina-core-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-jxpath-1.3.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-cypher-commons-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/websocket-api-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jodd-lagarto-3.4.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-graph-matching-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/textile-j-2.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-main-9.2.jar
+     [bootstrap] /usr/lib/jvm/java-8-oracle/jre/classes
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/stax-api-1.0.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/javax.servlet.jsp-2.3.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-pool-1.5.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-servlet-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-referencing-9.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-graph-collections-0.7.4-neo4j-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-process-9.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/groovy-json-2.2.1.jar
+     [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/javax.el-3.0.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-jndi-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/imageio-ext-tiff-1.1.7.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/pipes-1.0.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/json-path-2.3.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/xz-1.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-cypher-compiler-1.9-2.0.4.jar
+     [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/neo4j-cypher-2.0.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/asciidoctor-java-integration-0.1.4.jar
+     [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/httpclient-4.2.6.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/objenesis-1.2.jar
+     [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jetty-http-9.1.4.v20140401.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/commons-io-2.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gt-metadata-9.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/gson-2.2.4.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/hamcrest-core-1.3.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/jodd-core-3.4.5.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/pegdown-1.4.2.jar
+     [classpath + loader.0] file:/home/mark/StructrCommitteeProject/jvm-committee/target/lib/urlrewritefilter-4.0.4.jar
+2015-11-05 21:32:10.677+0000 INFO  [org.neo4j]: Library path:
+    /usr/java/packages/lib/amd64
+    /usr/lib64
+    /lib64
+    /lib
+    /usr/lib
+2015-11-05 21:32:10.677+0000 INFO  [org.neo4j]: System.properties:
+    sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+    path.separator = :
+    file.encoding.pkg = sun.io
+    user.country = US
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = unknown
+    user.dir = /home/mark/StructrCommitteeProject/jvm-committee
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = /home/mark
+    user.timezone = America/Chicago
+    file.encoding = UTF-8
+    user.name = mark
+    sun.java.command = org.structr.Server
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = sun.awt.X11.XToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.desktop = gnome
+    sun.cpu.isalist = 
+2015-11-05 21:32:10.677+0000 INFO  [org.neo4j]: Linux scheduler information:
+    noop [deadline] cfq 
+    noop [deadline] cfq 
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+    none
+2015-11-05 21:32:10.681+0000 INFO  [org.neo4j]: Network information:
+    Interface eth0:
+        address: fe80:0:0:0:a00:27ff:fe99:4e85%eth0
+        address: 10.0.2.15
+    Interface lo:
+        address: 0:0:0:0:0:0:0:1%lo
+        address: 127.0.0.1
+2015-11-05 21:32:10.682+0000 INFO  [org.neo4j]: --- INITIALIZED diagnostics END ---
+2015-11-05 21:32:10.760+0000 INFO  [org.neo4j]: Creating new db @ ./db/neostore
+2015-11-05 21:32:10.810+0000 INFO  [org.neo4j]: [./db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-11-05 21:32:10.812+0000 INFO  [org.neo4j]: [./db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-11-05 21:32:10.814+0000 INFO  [org.neo4j]: ./db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.816+0000 INFO  [org.neo4j]: ./db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.823+0000 INFO  [org.neo4j]: [./db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-11-05 21:32:10.824+0000 INFO  [org.neo4j]: [./db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-11-05 21:32:10.825+0000 INFO  [org.neo4j]: ./db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.827+0000 INFO  [org.neo4j]: ./db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.838+0000 INFO  [org.neo4j]: [./db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-11-05 21:32:10.838+0000 INFO  [org.neo4j]: [./db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-11-05 21:32:10.839+0000 INFO  [org.neo4j]: [./db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-11-05 21:32:10.839+0000 INFO  [org.neo4j]: [./db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-11-05 21:32:10.839+0000 INFO  [org.neo4j]: [./db/neostore.propertystore.db.strings] brickCount=0 brickSize=320768b mappedMem=320864256b (storeSize=128b)
+2015-11-05 21:32:10.839+0000 INFO  [org.neo4j]: [./db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-11-05 21:32:10.843+0000 INFO  [org.neo4j]: [./db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-11-05 21:32:10.844+0000 INFO  [org.neo4j]: [./db/neostore.propertystore.db.arrays] brickCount=0 brickSize=362752b mappedMem=362807296b (storeSize=128b)
+2015-11-05 21:32:10.846+0000 INFO  [org.neo4j]: [./db/neostore.propertystore.db] brickCount=0 brickSize=3774870b mappedMem=377487360b (storeSize=0b)
+2015-11-05 21:32:10.853+0000 INFO  [org.neo4j]: [./db/neostore.relationshipstore.db] brickCount=0 brickSize=4624191b mappedMem=462422016b (storeSize=0b)
+2015-11-05 21:32:10.853+0000 INFO  [org.neo4j]: [./db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2015-11-05 21:32:10.854+0000 INFO  [org.neo4j]: [./db/neostore.nodestore.db] brickCount=0 brickSize=1038086b mappedMem=103809024b (storeSize=0b)
+2015-11-05 21:32:10.854+0000 INFO  [org.neo4j]: [./db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2015-11-05 21:32:10.855+0000 INFO  [org.neo4j]: [./db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-11-05 21:32:10.859+0000 INFO  [org.neo4j]: ./db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.860+0000 INFO  [org.neo4j]: ./db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.862+0000 INFO  [org.neo4j]: ./db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.863+0000 INFO  [org.neo4j]: ./db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.864+0000 INFO  [org.neo4j]: ./db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.866+0000 INFO  [org.neo4j]: ./db/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.867+0000 INFO  [org.neo4j]: ./db/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.869+0000 INFO  [org.neo4j]: ./db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.871+0000 INFO  [org.neo4j]: ./db/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.873+0000 INFO  [org.neo4j]: ./db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.876+0000 INFO  [org.neo4j]: ./db/neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.879+0000 INFO  [org.neo4j]: ./db/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.881+0000 INFO  [org.neo4j]: ./db/neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:32:10.883+0000 INFO  [org.neo4j]: ./db/neostore hit=0 miss=8 switches=0 ooe=0
+2015-11-05 21:32:10.890+0000 INFO  [org.neo4j]: [./db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-11-05 21:32:10.890+0000 INFO  [org.neo4j]: [./db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-11-05 21:32:10.890+0000 INFO  [org.neo4j]: [./db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-11-05 21:32:10.891+0000 INFO  [org.neo4j]: [./db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-11-05 21:32:10.892+0000 INFO  [org.neo4j]: [./db/neostore.propertystore.db.strings] brickCount=0 brickSize=320768b mappedMem=320864256b (storeSize=128b)
+2015-11-05 21:32:10.893+0000 INFO  [org.neo4j]: [./db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-11-05 21:32:10.894+0000 INFO  [org.neo4j]: [./db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-11-05 21:32:10.894+0000 INFO  [org.neo4j]: [./db/neostore.propertystore.db.arrays] brickCount=0 brickSize=362752b mappedMem=362807296b (storeSize=128b)
+2015-11-05 21:32:10.894+0000 INFO  [org.neo4j]: [./db/neostore.propertystore.db] brickCount=0 brickSize=3774870b mappedMem=377487360b (storeSize=0b)
+2015-11-05 21:32:10.895+0000 INFO  [org.neo4j]: [./db/neostore.relationshipstore.db] brickCount=0 brickSize=4624191b mappedMem=462422016b (storeSize=0b)
+2015-11-05 21:32:10.895+0000 INFO  [org.neo4j]: [./db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2015-11-05 21:32:10.895+0000 INFO  [org.neo4j]: [./db/neostore.nodestore.db] brickCount=0 brickSize=1038086b mappedMem=103809024b (storeSize=0b)
+2015-11-05 21:32:10.895+0000 INFO  [org.neo4j]: [./db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2015-11-05 21:32:10.897+0000 INFO  [org.neo4j]: [./db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=63b)
+2015-11-05 21:32:10.947+0000 INFO  [org.neo4j]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2015-11-05 21:32:10.968+0000 INFO  [org.neo4j]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2015-11-05 21:32:11.214+0000 INFO  [org.neo4j]: Opened logical log [./db/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2015-11-05 21:32:11.224+0000 INFO  [org.neo4j]: Rebuilding lucene scan store, this may take a while
+2015-11-05 21:32:11.225+0000 INFO  [org.neo4j]: Lucene scan store rebuilt (roughly -1 nodes)
+2015-11-05 21:32:11.226+0000 INFO  [org.neo4j]: TM new log: tm_tx_log.1
+2015-11-05 21:32:11.233+0000 INFO  [org.neo4j]: Kernel health set to OK
+2015-11-05 21:32:11.547+0000 INFO  [org.neo4j]: Opened logical log [./db/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2015-11-05 21:32:11.551+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2015-11-05 21:32:11.551+0000 INFO  [org.neo4j]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1446759130762, id:-2505242512273367449, store version: 13843131341501958]
+2015-11-05 21:32:11.551+0000 INFO  [org.neo4j]: Kernel version: Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.0.4
+2015-11-05 21:32:11.551+0000 INFO  [org.neo4j]: Neo4j component versions:
+2015-11-05 21:32:11.560+0000 INFO  [org.neo4j]:   Neo4j - Cypher Compiler 1.9 (neo4j-cypher-compiler-1.9), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-11-05 21:32:11.560+0000 INFO  [org.neo4j]:   Neo4j - Cypher Commons (neo4j-cypher-commons), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-11-05 21:32:11.560+0000 INFO  [org.neo4j]:   Neo4j - Lucene Index (neo4j-lucene-index), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-11-05 21:32:11.560+0000 INFO  [org.neo4j]:   Neo4j - Cypher Compiler 2.0 (neo4j-cypher-compiler-2.0), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-11-05 21:32:11.560+0000 INFO  [org.neo4j]:   Neo4j - Graph Matching (neo4j-graph-matching), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-11-05 21:32:11.560+0000 INFO  [org.neo4j]:   Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-11-05 21:32:11.560+0000 INFO  [org.neo4j]:   Neo4j - Cypher (neo4j-cypher), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-11-05 21:32:11.560+0000 INFO  [org.neo4j]:   Neo4j - Generic shell (neo4j-shell), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-11-05 21:32:11.561+0000 INFO  [org.neo4j]:   Neo4j - Graph Algorithms (neo4j-graph-algo), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-11-05 21:32:11.561+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2015-11-05 21:32:11.561+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2015-11-05 21:32:11.562+0000 INFO  [org.neo4j]: Store versions:
+    Store versions:
+      NeoStore v0.A.1
+      SchemaStore v0.A.1
+      NodeStore v0.A.1
+      RelationshipStore v0.A.1
+      RelationshipTypeStore v0.A.1
+      LabelTokenStore v0.A.1
+      PropertyStore v0.A.1
+      PropertyIndexStore v0.A.1
+      StringPropertyStore v0.A.1
+      ArrayPropertyStore v0.A.1
+2015-11-05 21:32:11.567+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2015-11-05 21:32:11.567+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2015-11-05 21:32:11.567+0000 INFO  [org.neo4j]: Id usage:
+    Id usage:
+      SchemaStore: used=1 high=0
+      NodeStore: used=0 high=-1
+      RelationshipStore: used=0 high=-1
+      RelationshipTypeStore: used=0 high=-1
+      LabelTokenStore: used=0 high=-1
+      PropertyStore: used=0 high=-1
+      PropertyIndexStore: used=0 high=-1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2015-11-05 21:32:11.567+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2015-11-05 21:32:11.567+0000 INFO  [org.neo4j]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2015-11-05 21:32:11.567+0000 INFO  [org.neo4j]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2015-11-05 21:32:11.567+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2015-11-05 21:32:11.568+0000 INFO  [org.neo4j]: Disk space on partition (Total / Free / Free %): 48482926592 / 41438224384 / 85
+Storage files: (filename : modification date - size)
+      schema:
+        label:
+          lucene:
+            write.lock: 2015-11-05T15:32:11-0600 - 0.00 B
+          - Total: 2015-11-05T15:32:11-0600 - 0.00 B
+        - Total: 2015-11-05T15:32:10-0600 - 0.00 B
+      - Total: 2015-11-05T15:32:10-0600 - 0.00 B
+      neostore.nodestore.db.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      lock: 2015-11-05T15:32:10-0600 - 0.00 B
+      neostore: 2015-11-05T15:32:10-0600 - 63.00 B
+      neostore.propertystore.db.index.keys: 2015-11-05T15:32:10-0600 - 38.00 B
+      neostore.schemastore.db.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      neostore.relationshiptypestore.db.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      messages.log: 2015-11-05T15:32:11-0600 - 35.08 kB
+      neostore.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      neostore.propertystore.db.arrays: 2015-11-05T15:32:10-0600 - 128.00 B
+      neostore.schemastore.db: 2015-11-05T15:32:10-0600 - 64.00 B
+      neostore.nodestore.db.labels: 2015-11-05T15:32:10-0600 - 68.00 B
+      neostore.relationshiptypestore.db.names.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      neostore.nodestore.db.labels.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      neostore.propertystore.db.arrays.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      neostore.labeltokenstore.db.names: 2015-11-05T15:32:10-0600 - 38.00 B
+      neostore.propertystore.db.strings: 2015-11-05T15:32:10-0600 - 128.00 B
+      neostore.propertystore.db.strings.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      neostore.propertystore.db.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      neostore.labeltokenstore.db.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      tm_tx_log.1: 2015-11-05T15:32:11-0600 - 0.00 B
+      neostore.labeltokenstore.db: 2015-11-05T15:32:10-0600 - 0.00 B
+      neostore.propertystore.db.index.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      neostore.relationshipstore.db.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      neostore.propertystore.db.index.keys.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      index:
+        lucene.log.1: 2015-11-05T15:32:11-0600 - 16.00 B
+        lucene.log.active: 2015-11-05T15:32:11-0600 - 4.00 B
+        lucene-store.db: 2015-11-05T15:32:11-0600 - 40.00 B
+      - Total: 2015-11-05T15:32:11-0600 - 60.00 B
+      active_tx_log: 2015-11-05T15:32:11-0600 - 11.00 B
+      neostore.propertystore.db.index: 2015-11-05T15:32:10-0600 - 0.00 B
+      neostore.relationshiptypestore.db: 2015-11-05T15:32:10-0600 - 0.00 B
+      neostore.relationshipstore.db: 2015-11-05T15:32:10-0600 - 0.00 B
+      nioneo_logical.log.1: 2015-11-05T15:32:11-0600 - 16.00 B
+      neostore.labeltokenstore.db.names.id: 2015-11-05T15:32:10-0600 - 9.00 B
+      nioneo_logical.log.active: 2015-11-05T15:32:11-0600 - 4.00 B
+      neostore.relationshiptypestore.db.names: 2015-11-05T15:32:10-0600 - 38.00 B
+      store_lock: 2015-11-05T15:32:10-0600 - 0.00 B
+      neostore.propertystore.db: 2015-11-05T15:32:10-0600 - 0.00 B
+      neostore.nodestore.db: 2015-11-05T15:32:10-0600 - 0.00 B
+2015-11-05 21:32:11.570+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2015-11-05 21:32:11.591+0000 INFO  [org.neo4j]: Database is now ready
+2015-11-05 21:32:11.594+0000 INFO  [org.neo4j]: GC Monitor started. 
+2015-11-05 21:33:08.087+0000 INFO  [org.neo4j]: Shutdown started
+2015-11-05 21:33:08.088+0000 INFO  [org.neo4j]: Database is now unavailable
+2015-11-05 21:33:08.089+0000 INFO  [org.neo4j]: GC Monitor stopped. 
+2015-11-05 21:33:08.151+0000 INFO  [org.neo4j]: Closed log ./db/index/lucene.log
+2015-11-05 21:33:08.158+0000 INFO  [org.neo4j]: TM shutting down
+2015-11-05 21:33:08.179+0000 INFO  [org.neo4j]: Closed log ./db/nioneo_logical.log
+2015-11-05 21:33:08.188+0000 INFO  [org.neo4j]: ./db/neostore.relationshiptypestore.db.names hit=0 miss=3 switches=0 ooe=0
+2015-11-05 21:33:08.192+0000 INFO  [org.neo4j]: ./db/neostore.relationshiptypestore.db hit=0 miss=3 switches=0 ooe=0
+2015-11-05 21:33:08.197+0000 INFO  [org.neo4j]: ./db/neostore.labeltokenstore.db.names hit=0 miss=10 switches=0 ooe=0
+2015-11-05 21:33:08.199+0000 INFO  [org.neo4j]: ./db/neostore.labeltokenstore.db hit=0 miss=10 switches=0 ooe=0
+2015-11-05 21:33:08.200+0000 INFO  [org.neo4j]: ./db/neostore.propertystore.db.strings hit=4 miss=0 switches=0 ooe=0
+2015-11-05 21:33:08.202+0000 INFO  [org.neo4j]: ./db/neostore.propertystore.db.index.keys hit=0 miss=26 switches=0 ooe=0
+2015-11-05 21:33:08.204+0000 INFO  [org.neo4j]: ./db/neostore.propertystore.db.index hit=0 miss=26 switches=0 ooe=0
+2015-11-05 21:33:08.206+0000 INFO  [org.neo4j]: ./db/neostore.propertystore.db.arrays hit=1 miss=0 switches=0 ooe=0
+2015-11-05 21:33:08.208+0000 INFO  [org.neo4j]: ./db/neostore.propertystore.db hit=600 miss=0 switches=0 ooe=0
+2015-11-05 21:33:08.210+0000 INFO  [org.neo4j]: ./db/neostore.relationshipstore.db hit=3 miss=0 switches=0 ooe=0
+2015-11-05 21:33:08.212+0000 INFO  [org.neo4j]: ./db/neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:33:08.214+0000 INFO  [org.neo4j]: ./db/neostore.nodestore.db hit=147 miss=0 switches=0 ooe=0
+2015-11-05 21:33:08.215+0000 INFO  [org.neo4j]: ./db/neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2015-11-05 21:33:08.217+0000 INFO  [org.neo4j]: ./db/neostore hit=0 miss=56 switches=0 ooe=0
+2015-11-05 21:33:08.219+0000 INFO  [org.neo4j]: NeoStore closed
+2015-11-05 21:33:08.219+0000 INFO  [org.neo4j]: --- STOPPING diagnostics START ---
+2015-11-05 21:33:08.219+0000 INFO  [org.neo4j]: --- STOPPING diagnostics END ---
